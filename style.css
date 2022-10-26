@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    border: 3px solid #f2f2f2;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.anjuran {
+    background: #003855;
+    color: white;
+    padding: 5px;
+}
+
+#anjuran {
+    margin: 5px 0px;
+}
+
+.dive {
+    background-image: url("mael-balland.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+#explore {
+    background: #065064;
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    justify-content: start;
+    margin-right: 71%;
+    padding: 5px 8px 5px 20px;
+}
+
+.attention {
+    background: #13aa5f;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+
+#attention {
+    text-align: left;
+}
+
+#input {
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    padding: 5px;
+    text-align: start;
+}
+
+.do-dont {
+    display: flex;
+    padding: 30px;
+}
+
+.do {
+    justify-content: center;
+    line-height: 30px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.bi {
+    height: 200px;
+    width: 200px;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+    margin: 30px 0px;
+}
+
+.dont {
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 30px;
+    text-align: right;
+}
